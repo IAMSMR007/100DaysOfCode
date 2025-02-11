@@ -5,6 +5,8 @@ import random
 tim1=Turtle()
 tim2=Turtle()
 
+
+
 tim1.speed(1)
 tim2.speed(1)
 

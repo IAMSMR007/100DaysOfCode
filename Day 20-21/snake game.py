@@ -7,6 +7,8 @@ screen=Screen()
 screen.bgcolor("black")
 screen.title("Snake simulator")
 screen.setup(width=600,height=600)
+screen.textinput("Welcome to Snake Game","Press Enter to start the game")
+
 
 
 border=Turtle()
@@ -33,7 +35,7 @@ screen.onkey(snake.left,"Left")
 screen.onkey(snake.right,"Right")
 
 
-time.sleep(3)
+
 
 
 #snake move

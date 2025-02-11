@@ -9,6 +9,7 @@ class Score(Turtle):
         self.penup()
         self.goto(-270,280)
         self.write(f"Score: {self.score}",False,"center",("Arial", 10, "normal"))
+
         
 
     def gain(self):
