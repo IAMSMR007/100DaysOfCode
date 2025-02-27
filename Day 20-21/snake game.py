@@ -5,6 +5,7 @@ from food import Food
 from score import Score
 screen=Screen()
 screen.bgcolor("black")
+# screen.bgpic("bg.jpg")
 screen.title("Snake simulator")
 screen.setup(width=600,height=600)
 screen.textinput("Welcome to Snake Game","Press Enter to start the game")
@@ -54,13 +55,13 @@ while game_on:
     
     #detect collision with wall
     if snake.segments[0].xcor()>=300 or snake.segments[0].xcor()<=-300 or snake.segments[0].ycor()>=300 or snake.segments[0].ycor()<=-300:
-        game_on=False
-        score.game_over()
+        snake.reset()
+        score.reset()
     
     #detect collision with body
     for segment in snake.segments[1:]:
         if snake.segments[0].distance(segment)<=10:
-            game_on=False
-            score.game_over()
+            snake.reset()
+            score.reset()
 
 screen.exitonclick()
