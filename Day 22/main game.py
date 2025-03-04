@@ -8,7 +8,7 @@ from scoreboard import ScoreBoard
 
 #setup of game screen
 scr=Screen()
-scr.bgcolor("black")
+# scr.bgpic("bgg.gif")
 
 scr.setup(width=800,height=600)
 scr.textinput("Welcome","Press Enter:")

@@ -5,7 +5,7 @@ from food import Food
 from score import Score
 screen=Screen()
 screen.bgcolor("black")
-# screen.bgpic("bg.jpg")
+screen.bgpic("bg.gif")
 screen.title("Snake simulator")
 screen.setup(width=600,height=600)
 screen.textinput("Welcome to Snake Game","Press Enter to start the game")
