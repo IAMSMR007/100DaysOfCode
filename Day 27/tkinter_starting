@@ -1,0 +1,31 @@
+import tkinter
+
+def cliked():
+    new_text=input.get()
+    my_label.config(text=new_text) 
+
+#widow
+window=tkinter.Tk()
+window.title("GUI")
+window.minsize(width=500,height=300)
+window.config(padx=200,pady=200)
+
+#Label
+my_label=tkinter.Label(text="I am a Lable",font=("Arial",24,"bold"))
+my_label.grid(column=0,row=0)
+
+
+#configuring
+my_label["text"]="Please Please Please"
+
+
+#Entry
+input=tkinter.Entry()
+input.grid(row=2,column=3)
+
+#button
+button=tkinter.Button(text="click me",command=cliked)
+button.grid(column=1,row=1)
+
+
+window.mainloop()
