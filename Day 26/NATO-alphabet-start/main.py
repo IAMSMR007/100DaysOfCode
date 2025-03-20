@@ -23,7 +23,7 @@ for (index, row) in student_data_frame.iterrows():
 
 #TODO 1. Create a dictionary in this format:{"A": "Alfa", "B": "Bravo"}
 
-with open(r"C:\Users\MOHAMMAD SAMEER\PY\100DaysOfCode\Day 26\NATO-alphabet-start\nato_phonetic_alphabet.csv") as file:
+with open("nato_phonetic_alphabet.csv") as file:
     data = pandas.read_csv(file)
 
 nato_phonetic_alphabet = {row.letter: row.code for (index, row) in data.iterrows()}

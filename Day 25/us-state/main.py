@@ -2,11 +2,15 @@ import turtle
 import pandas
 screen=turtle.Screen()
 screen.title("QUIZ GAME")
+
 screen.bgpic("blank_states_img.gif")
+
 tim=turtle.Turtle()
 tim.hideturtle()
 tim.penup()
+
 data=pandas.read_csv("50_states.csv")
+
 state_data=data["state"].to_list()
 xcor=list(data.x)
 ycor=list(data.y)
