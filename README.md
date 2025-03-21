@@ -15,12 +15,9 @@ Welcome to my **100 Days of Code** challenge! 🚀 This repository documents my 
 ├── 📁 INTERMEDIATE (DAY 16 - DAY 31)
 ├── 📁 INTERMEDIATE+
 ├── 📁 ADVANCED
-...
-└── 📁 Day 100 - Final Project
-```
-Each folder contains:
-- **Python scripts** (`.py` files) for the day's exercises and projects.
-- **ReadMe.md** files explaining key learnings and concepts.
+
+
+
 
 ## 🔥 My Commitment
 - Code daily for at least **1 hour**.
@@ -33,18 +30,10 @@ As I progress, I'll work on exciting projects such as:
 - **Password Manager** 🔑
 - **Pomodoro App** ⏳
 - **Turtle Graphics Game** 🐢
-- **Web Scraper** 🌐
-- **Basic AI & Machine Learning Models** 🤖
 
 ## 🌟 How You Can Follow Along
 Feel free to explore my repository and track my progress. If you're also doing the **100 Days of Code**, let's connect and motivate each other! 🎯
 
 ## 🤝 Connect with Me
-- **GitHub:** [Your GitHub Profile Link]
-- **LinkedIn:** [Your LinkedIn Profile (Optional)]
-- **Twitter:** [Your Twitter Handle (Optional)]
-
----
-
 ### 🚀 Let's Code and Keep Learning! 💡
 
