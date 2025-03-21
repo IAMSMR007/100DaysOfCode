@@ -1,19 +1,35 @@
 from tkinter import *
+from tkinter import messagebox
+import random
+import string
 GREEN = "#9bdeac"
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def Password():
-    pass
-
+    letters = string.ascii_letters
+    digits = string.digits
+    symbols = string.punctuation
+    characters = letters + digits + symbols
+    password_length = 12
+    password = ''.join(random.choice(characters) for i in range(password_length))
+    input_pass.delete(0, END)
+    input_pass.insert(0, password)
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def Saved():
     website=input_web.get()
     email=input_email.get()
     password=input_pass.get()
-    with open("Saved_Password.txt","a") as data:
-        data.write(f"{website} | {email} | {password}\n")
-        print("Saving.......")
-        input_web.delete(0,END)
-        input_pass.delete(0,END)
+
+    if len(website) == 0 or len(password) == 0:
+        messagebox.showinfo(title="Oops", message="Please make sure you haven't left any fields empty.")
+        return
+    
+    is_ok=messagebox.askokcancel(title=website , message= f"There are details enter: \n Email: {email} \n Password: {password}\n Is it ok to save ?")
+    if is_ok:
+        with open("Saved_Password.txt","a") as data:
+            data.write(f"{website} | {email} | {password}\n")
+            print("Saving.......")
+            input_web.delete(0,END)
+            input_pass.delete(0,END)
 
 
     
