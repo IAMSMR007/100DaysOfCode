@@ -1,4 +1,4 @@
-English,Hindi
+English Word,Hindi Translation
 the,द
 be,होना
 to,को
@@ -8,6 +8,7 @@ a,एक
 in,में
 that,कि
 have,रखना
+I,मैं
 it,यह
 for,के लिए
 not,नहीं
@@ -21,6 +22,7 @@ at,पर
 this,यह
 but,लेकिन
 his,उसका
+by,द्वारा
 from,से
 they,वे
 we,हम
@@ -32,9 +34,12 @@ an,एक
 will,होगा
 my,मेरा
 one,एक
+all,सभी
 would,होगा
 there,वहां
+their,उनका
 what,क्या
+so,तो
 up,ऊपर
 out,बाहर
 if,अगर
@@ -45,6 +50,7 @@ which,जो
 go,जाना
 me,मुझे
 when,जब
+make,बनाना
 can,सकना
 like,जैसा
 time,समय
@@ -71,6 +77,7 @@ only,केवल
 come,आना
 its,इसका
 over,ऊपर
+think,सोचना
 also,भी
 back,पीछे
 after,के बाद
@@ -84,6 +91,7 @@ well,अच्छा
 way,तरीका
 even,भी
 new,नया
+want,चाहना
 any,कोई
 give,देना
 day,दिन
@@ -114,6 +122,7 @@ between,के बीच
 under,के नीचे
 again,फिर
 further,आगे
+then,तब
 once,एक बार
 here,यहाँ
 there,वहाँ
@@ -298,6 +307,7 @@ type,प्रकार
 kind,तरह
 sort,तरह
 form,रूप
+shape,आकार
 structure,संरचना
 style,शैली
 pattern,पैटर्न
@@ -320,6 +330,7 @@ significance,महत्व
 importance,महत्व
 value,मूल्य
 meaning,अर्थ
+point,बिंदु
 purpose,उद्देश्य
 reason,कारण
 cause,कारण
@@ -345,10 +356,12 @@ part,भाग
 place,स्थान
 space,जगह
 position,स्थिति
+location,स्थान
 area,क्षेत्र
 region,क्षेत्र
 zone,क्षेत्र
 range,श्रेणी
+point,बिंदु
 site,स्थल
 moment,क्षण
 stage,चरण
